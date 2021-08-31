@@ -1,0 +1,20 @@
+[
+    {
+        "name":"Xayrulla Hamidov",
+        "age":40,
+        "country":"Uzbekiston",
+        "phone":998902445999
+    },
+    {
+        "name":"Bale Richard",
+        "age":23,
+        "country":"Belgium",
+        "phone":45882662059
+    },
+    {
+        "name":"Dmitry Poborski",
+        "age":32,
+        "country":"Poland",
+        "phone":56698563534
+    }
+]

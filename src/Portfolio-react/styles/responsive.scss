@@ -1,0 +1,59 @@
+ //homepage
+ @media (min-width: 320px) and (max-width: 330px){
+     nav{
+         padding: 12px!important;
+         .navbar-brand{
+             font-size: 18px;
+             padding: 0 10px;
+         }
+         .navbar-toggler {
+             background-color: #fafa00;
+             span{
+                 font-size: 15px;
+             }
+         }
+        .navbar-nav{
+            .nav-item{
+                margin: 20px;
+                font-size: 17px!important; //important ayrim hollarda ulcham o'zgarsa qiymatni saqlab qoladi
+                text-align: center;
+            }
+        } 
+        ////////
+    .aboutinfo{
+        display: inline-block;
+        padding: 0;
+        .side-two{
+            text-align: center;
+            img{
+                width: 50%;
+            }
+        }
+        .side-one{
+            text-align: center;
+            width: 100%;
+            h1{
+                font-size: 27px!important;
+            }
+            p{
+                font-size: 15px!important;
+                width: 100%;
+                margin: 0 15px;
+                padding: 15px 0 25px!important;
+            }
+            .buttons{
+                .linkBtn{
+                    padding: 10px 10px;
+                    font-size: 15px;
+                }
+        
+            }
+            .socialIcons{
+                a{
+                    padding: 0 10px 0 10px;
+                }
+            }
+        }
+    }
+    }
+}

@@ -1,0 +1,11 @@
+@import 'node_modules/react-modal-video/scss/modal-video.scss';
+//stil ni import qilamiz
+@import 'react-alice-carousel/lib/scss/alice-carousel.scss';
+
+@import 'react-alice-carousel/lib/alice-carousel.css'; //css uchun
+
+img{
+    border-radius: 15px;
+    width: 450px;
+    height: 300px;
+}

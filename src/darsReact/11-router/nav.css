@@ -1,0 +1,26 @@
+a {
+    text-decoration: none;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    background-color: indigo;
+    justify-content: space-around;
+}
+nav a {
+    color: white;
+}
+nav .navbar-brand {
+
+    font-size: 20px;
+}
+ul {
+    display: flex;
+}
+li {
+    margin: 10px;
+    list-style-type: none;
+}
+li a {
+    color: white;
+}

@@ -1,0 +1,10 @@
+.imageSection > img{
+    width: 320px;
+    height: 140px;
+}
+.imageSection{
+    text-align: center;
+}
+h1,h2{
+    text-align: center;
+}

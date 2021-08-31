@@ -1,0 +1,30 @@
+html{
+    background-color: #000;
+    overflow-x: hidden;
+}
+body{
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: #000;
+}
+nav{
+    animation: animNav ease 1s;
+    padding: 15px 80px;
+    .navbar-brand{
+        
+        color: #cccccc!important;
+    }
+    .navbar-nav{
+        margin-left: auto;
+    }
+    .nav-item{
+        margin:20px;
+        a{
+            text-decoration: none;
+            color: #949494;
+            &:hover{
+                color: #cccccc;
+            }
+        }
+    }
+}

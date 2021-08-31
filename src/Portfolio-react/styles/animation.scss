@@ -1,0 +1,109 @@
+@keyframes animNav {
+    from{
+        transform: translateY(-30px);
+        opacity: 0.3;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 0.3;
+
+    }
+}
+/////////////
+
+.fadeInup{
+    animation-name: fadeInup;
+    -webkit-animation-name: fadeInup;
+    -o-animation-name: fadeInup;
+    -moz-animation-name: fadeInup;
+}
+@keyframes fadeInup {
+    from {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(-0);
+        opacity: 1;
+    }
+}
+//animatsiya brauzerga moslashtirish eski versiyalarda ham ishlashi uchun
+@-webkit-keyframes fadeInup {
+    from {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(-0);
+        opacity: 1;
+    }
+}
+@-o-keyframes fadeInup { //opera uchun
+    from {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(-0);
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadeInup { //mozilla
+    from {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(-0);
+        opacity: 1;
+    }
+}
+////////////////////////
+//portfolio anim
+.potfolioAnim{
+    animation-name: potfolioAnim;
+    -webkit-animation-name: potfolioAnim;
+    -o-animation-name: potfolioAnim;
+    -moz-animation-name: potfolioAnim;
+}
+@keyframes potfolioAnim {
+    from {
+        transform: translateY(90px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes potfolioAnim {
+    from {
+        transform: translateY(90px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@-o-keyframes potfolioAnim { //opera uchun
+    from {
+        transform: translateY(90px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@-moz-keyframes potfolioAnim { //mozilla
+    from {
+        transform: translateY(90px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+

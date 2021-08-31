@@ -1,0 +1,13 @@
+@keyframes anim{
+    from{
+        transform: translateY(-30px);
+        opacity: 0.3;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.animText {
+    animation-name: anim;
+}
